@@ -33,3 +33,7 @@
 ## Reference
 
 [6 Hour Vue.js & Firebase Project - FireBlogs](https://www.youtube.com/watch?v=ISv22NNL-aE)
+
+## Design Layout
+
+[Fintory Blog](https://dribbble.com/shots/15006128-Fintory-Blog/attachments/6728036?mode=media)
