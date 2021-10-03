@@ -9,7 +9,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      BarlowCondensed: ['BarlowCondensed', 'sans-serif'],
+      sans: ['Barlow Condensed', 'sans-serif'],
     },
     container: {
       center: true,

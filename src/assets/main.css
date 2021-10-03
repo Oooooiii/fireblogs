@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&display=swap');
+
+.fade-enter-from {
+  opacity: 0;
+}
+.fade-enter-active {
+  transition: all 0.3s ease-in;
+}
+.fade-leave-to {
+  transition: all 0.3s ease-in;
+  opacity: 0;
+}
