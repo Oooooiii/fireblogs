@@ -6,9 +6,12 @@
       <component :is="Component"></component>
     </transition>
   </router-view>
+
+  <app-footer />
 </template>
 
 <script setup>
 import AppHeader from '/src/components/Header.vue'
+import AppFooter from '/src/components/Footer.vue'
 
 </script>

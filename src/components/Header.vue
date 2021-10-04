@@ -1,7 +1,7 @@
 <template>
   <header class="fixed w-full mx-auto bg-white shadow z-50">
     <nav class="container max-w-7xl flex items-center justify-between p-3.5">
-      <div class="flex items-center flex-no-shrink mr-6">
+      <div class="flex items-center">
         <router-link :to="{ name: 'Home' }" class="text-xl flex items-center hover:text-gray-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path
