@@ -1,30 +1,51 @@
 <template>
-  <main>
+  <main class="flex flex-col justify-between min-h-screen my-auto">
     <!-- Introduction -->
-    <section class="w-full max-w-7xl pt-14 mx-auto">
-      <div class="container flex flex-col sm:flex-row items-center py-8 sm:py-32 md:py-40 text-center">
-        <div class="flex-1">
+    <section class="pt-14 px-4 lg:px-8 ">
+      <div class="w-full max-w-lg sm:max-w-6xl lg:max-w-7xl mx-auto flex flex-col gap-x-2 sm:flex-row items-center justify-evenly py-8 sm:pt-28">
+        <div>
+          <!-- <img
+            class="rounded-xl max-w-xs max-h-xs mx-auto sm:max-w-xs sm:mx-4 lg:max-w-sm lg:ml-10"
+            src="../assets/imgs/iBrong-KiT.jpg"
+            alt=""
+          /> -->
           <img
-            class="mx-auto rounded-xl max-w-96 max-h-96 sm:max-w-80 sm:max-h-80 md:max-w-96 md:max-h-96 p-1"
+            class="rounded-xl max-w-xs mx-auto sm:max-w-xs sm:mx-4 lg:max-w-sm lg:ml-10"
             src="../assets/imgs/iBrong-Nakineko.jpg"
             alt=""
           />
         </div>
-        <div class="flex-1 mt-6 sm:mt-0 sm:pl-8 md:pl-14 lg:pl-0">
-          <h1 class="mx-auto max-w-sm font-bold text-2xl text-left mb-2 lg:text-3xl lg:mb-4">
+        <div class="max-w-md lg:max-w-lg mt-6 sm:mt-0 text-justify">
+          <h1 class="font-bold text-2xl mb-2 lg:mb-4">
             It's me Bunrong😜
             <span class="text-sm underline text-blue-900">(aka iBrong)</span>
           </h1>
-          <p class="mx-auto max-w-sm text-justify text-md lg:text-lg">
+          <p>
             I am passionate about business analysis, have knowledge of the most popular programming languages, skills in
             business process modeling, and demonstrated experience as a team leader. Besides, I used to be in roles
-            designer, developer, and tester. A perfectionist who ensures that every task is completed with the utmost
+            designer, developer, and tester.
+          </p>
+          <p >
+            A <strong>perfectionist</strong> who ensures that every task is completed with the utmost
             attention to detail.
           </p>
+          <div class="mt-2">
+            <h1 class="text-md underline">Skils / Passionate</h1>
+            <ul class="ml-4 list-disc">
+              <li>JavaScript/TypeScript, HTML/CSS, SQL, GIT</li>
+              <li>Agile Methodology, Data Structure, Algorithms</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+    
+    <!-- Footer -->
+    <app-footer />
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+import AppFooter from '/src/components/Footer.vue'
+
+</script>

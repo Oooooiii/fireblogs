@@ -7,7 +7,6 @@
     </transition>
   </router-view>
 
-  <app-footer />
 </template>
 
 <script setup>

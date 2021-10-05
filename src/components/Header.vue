@@ -35,7 +35,7 @@
           </li>
           <li>
             <router-link class="text-md block mt-4 mr-0 pl-1 hover:text-gray-600 hover:bg-gray-100 sm:inline-block sm:mt-0 sm:mr-12 sm:pl-0  " to="#"
-              >Create Post</router-link
+              >Works</router-link
             >
           </li>
           <li>
