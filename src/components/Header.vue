@@ -24,22 +24,22 @@
       <div :class="open ? 'flex absolute top-12 left-0 right-0 px-4 pb-4 bg-white shadow' : 'hidden'" class="w-full sm:flex sm:w-auto">
         <ul class="sm:flex items-center w-full">
           <li>
-            <router-link class="text-md block mt-4 mr-0 pl-1 hover:text-gray-600 hover:bg-gray-100 sm:inline-block sm:mt-0 sm:mr-12 sm:pl-0  " :to="{ name: 'Home' }"
+            <router-link class="text-md block mt-4 mr-0 pl-1 hover:text-gray-600 sm:inline-block sm:mt-0 sm:mr-12 sm:pl-0  " :to="{ name: 'Home' }"
               >Home</router-link
             >
           </li>
           <li>
-            <router-link class="text-md block mt-4 mr-0 pl-1 hover:text-gray-600 hover:bg-gray-100 sm:inline-block sm:mt-0 sm:mr-12 sm:pl-0  " :to="{ name: 'Blogs' }"
+            <router-link class="text-md block mt-4 mr-0 pl-1 hover:text-gray-600 sm:inline-block sm:mt-0 sm:mr-12 sm:pl-0  " :to="{ name: 'Blogs' }"
               >Blogs</router-link
             >
           </li>
           <li>
-            <router-link class="text-md block mt-4 mr-0 pl-1 hover:text-gray-600 hover:bg-gray-100 sm:inline-block sm:mt-0 sm:mr-12 sm:pl-0  " to="#"
+            <router-link class="text-md block mt-4 mr-0 pl-1 hover:text-gray-600 sm:inline-block sm:mt-0 sm:mr-12 sm:pl-0  " to="#"
               >Works</router-link
             >
           </li>
           <li>
-            <router-link class="text-md flex items-center mt-4 mr-0 pl-1 hover:text-gray-600 hover:bg-gray-100 sm:mt-0 sm:pl-0 " to="#">
+            <router-link class="text-md flex items-center mt-4 mr-0 pl-1 hover:text-gray-600 sm:mt-0 sm:pl-0 " to="#">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   stroke-linecap="round"

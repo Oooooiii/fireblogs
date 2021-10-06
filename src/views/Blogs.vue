@@ -12,14 +12,16 @@
           <p>Join <strong>thousands of developers</strong> in the iBrong Community and start leveling up your Vue skills!</p>
         </div>
         <div class="w-full h-full py-8 sm:p-0 sm:w-1/2 md:w-5/12">
-          <iframe
-            class="w-full h-96 rounded-md sm:h-56 md:h-72"
-            src="https://www.youtube.com/embed/orGcdmCRCc0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <div class="aspect-w-2 aspect-h-1">
+            <iframe
+              class="rounded-md "
+              src="https://www.youtube.com/embed/orGcdmCRCc0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
