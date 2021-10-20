@@ -22,7 +22,7 @@
         <div class="flex-1 mt-6 sm:mt-0 text-justify">
           <div class="sm:max-w-lg mx-auto">
             <h1 class="font-bold text-2xl mb-2 lg:mb-4">
-              It's me Bunrong😜
+              It's me Kit Bunrong😜
               <span class="text-sm underline text-blue-900">(aka iBrong)</span>
             </h1>
             <p>

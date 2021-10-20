@@ -63,7 +63,8 @@
               <p class="mt-2 text-base leading-6 text-gray-500">Notice that we are requiring our app.js file. We will be writing all our app logic in app.js. It will be our main entry point for the app. Let’s take a quick look at the code.</p>
             </div>
             <div class="text-base mt-2 leading-6 font-semibold text-indigo-600 hover:text-indogo-500 focus:underline focus:outline-none transition ease-in-out duration-150">
-              <a href="#">Read full blog</a>
+              <!-- <a href="#">Read full blog</a> -->
+              <router-link :to="{name: 'BlogDetail', params: {id: '19203'}}">Read full blog</router-link>
             </div>
           </div>
           <div class="flex flex-col pb-5 border-b-2 border-gray-100">
@@ -78,7 +79,8 @@
               <p class="mt-2 text-base leading-6 text-gray-500">Iterating through items and dealing with asynchronous logic (i.e. API calls) are probably two of the most common tasks we have to perform as JavaScript devs.</p>
             </div>
             <div class="text-base mt-2 leading-6 font-semibold text-indigo-600 hover:text-indogo-500 focus:underline focus:outline-none transition ease-in-out duration-150">
-              <a href="#">Read full blog</a>
+              <!-- <a href="#">Read full blog</a> -->
+              <router-link :to="{name: 'BlogDetail', params: {id: '19203'}}">Read full blog</router-link>
             </div>
           </div>
           <div class="flex flex-col pb-5 border-b-2 border-gray-100">
@@ -95,7 +97,8 @@
               <p class="mt-2 text-base leading-6 text-gray-500">There are a lot of state management libraries available for Reactjs. Here you will learn about the 5 most popular state management libraries.In case if you don't know, simply State management libraries are used for passing the props to children components without prop drilling.</p>
             </div>
             <div class="text-base mt-2 leading-6 font-semibold text-indigo-600 hover:text-indogo-500 focus:underline focus:outline-none transition ease-in-out duration-150">
-              <a href="#">Read full blog</a>
+              <!-- <a href="#">Read full blog</a> -->
+              <router-link :to="{name: 'BlogDetail', params: {id: '19203'}}">Read full blog</router-link>
             </div>
           </div>
           <div class="flex flex-col pb-5 border-b-2 border-gray-100">
@@ -111,7 +114,8 @@
               <p class="mt-2 text-base leading-6 text-gray-500">Client-side rendering (CSR) means rendering pages directly in the browser using JavaScript. All logic, data fetching, templating and routing are handled on the client rather than the server.</p>
             </div>
             <div class="text-base mt-2 leading-6 font-semibold text-indigo-600 hover:text-indogo-500 focus:underline focus:outline-none transition ease-in-out duration-150">
-              <a href="#">Read full blog</a>
+              <!-- <a href="#">Read full blog</a> -->
+              <router-link :to="{name: 'BlogDetail', params: {id: '19203'}}">Read full blog</router-link>
             </div>
           </div>
           <div class="flex flex-col pb-5 border-b-2 border-gray-100">
@@ -128,7 +132,8 @@
               <p class="mt-2 text-base leading-6 text-gray-500">It was super cool to see how we can work on same branches at the same time. The process of it was effortless, just type in one command and you are good to go😋😎</p>
             </div>
             <div class="text-base mt-2 leading-6 font-semibold text-indigo-600 hover:text-indogo-500 focus:underline focus:outline-none transition ease-in-out duration-150">
-              <a href="#">Read full blog</a>
+              <!-- <a href="#">Read full blog</a> -->
+              <router-link :to="{name: 'BlogDetail', params: {id: '19203'}}">Read full blog</router-link>
             </div>
           </div> 
         </div>
